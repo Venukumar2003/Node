@@ -1,32 +1,28 @@
 
-
-
-function getUser(req,res){
-    console.log(req.params)
-    res.send({"message" : "To get user details",data : req.params})
-}
-
 function createUser(req,res){
     console.log(req.body)
-    res.send({"message" : "To create user details",data : req.body})
+    res.send({"message" : "To create user",data : req.body})
+}
+
+function getUser(req,res){
+console.log(req.params)
+res.send({"message" : "TO get user"})
 }
 
 function updateUser(req,res){
-    console.log(req.params)
-    res.send({"message" : "To get update details",data : req.params})
+console.log(req.params)
+res.send({"message" : "TO update user"})
 }
-
 
 function deleteUser(req,res){
-    console.log(req.params)
-    res.send({"message" : "To get delete details",data : req.params})
+console.log(req.params)
+res.send({"message" : "TO delete user"})
 }
 
-
-
 module.exports ={
-    getUser,
     createUser,
+    getUser,
     updateUser,
     deleteUser
 }
+
