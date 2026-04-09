@@ -5,8 +5,12 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD:routeControllerPractice/package.json
     "start": "node server.js",
     "dev" : "nodemon server.js"
+=======
+    "start": "node server.js"
+>>>>>>> 2e98d6aede91fa7ec860d0ea415e86ba621b54c6:package.json
   },
   "keywords": [],
   "author": "",
